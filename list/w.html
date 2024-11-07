@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Mobile Device</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../assets/font/fontawesome-free-6.2.0-web/css/all.min.css">
+</head>
+<body>
+<header>
+    <img src="../assets/img/header.png" alt="Sale">
+</header>
+<nav>
+    <div class="container">
+        <ul>
+            <li><a href="../index.html"><img src="../assets/img/logo.png" style="width: 150px" alt="logo"></a></li>
+            <li id="address-form"><a href="#">TPHCM<i class="fa-solid fa-sort-down"></i></a></li>
+            <li><input type="text" placeholder="Bạn cần tìm gì..."><i class="fa-solid fa-magnifying-glass icon"></i></li>
+            <li><a href=""></a><button class="cart-shopping"><i class="fa-solid fa-cart-shopping"></i>Giỏ hàng</button></li>
+            <li><a href="">Lịch sử<br>đơn hàng</a></li>
+            <li><a href="" class="buy"><span class="btn-content"><span class="btn-top"></span></span>Mua thẻ nạp ngay!</a></li>
+            <li><a href="">24h Công nghệ</a></li>
+            <li><a href="">Hỏi đáp</a></li>
+            <li><a href="">Game App</a></li>
+            <div class="address-form">
+                <div class="address-form-content">
+                    <h2>Chọn địa chỉ nhận hàng<span id="address-close">X Đóng</span></h2>
+                    <form action="">
+                        <p>Chọn đầy đủ địa chỉ nhận hàng để biết chính xác thời gian giao</p>
+                        <select name="">
+                            <option value="#">--Chọn địa điểm</option>
+                            <option value="#">TPHCM</option>
+                        </select>
+                        <select name="">
+                            <option value="#">--Chọn Quận/Huyện</option>
+                            <option value="#">TPHCM</option>
+                        </select>
+                        <select name="">
+                            <option value="#">--Chọn Phường/Xã</option>
+                            <option value="#">TPHCM</option>
+                        </select>
+                        <input type="text" placeholder="Số nhà, Tên đường">
+                        <button id="xacnhan">XÁC NHẬN</button>
+                    </form>
+                </div>
+            </div>
+        </ul>
+    </div>
+</nav>
+<section class="menu-bar">
+    <div class="container">
+        <div class="menu-bar-content">
+            <ul>
+                <li><a href="./phone.html"><i class="fa-solid fa-mobile"></i>Điện thoại</a></li>
+                <li><a href="./laptop.html"><i class="fa-solid fa-laptop"></i>Laptop</a></li>
+                <li><a href="./tablet.html"><i class="fa-solid fa-tablet"></i>Tablet</a></li>
+                <li><a href=""><i class="fa-solid fa-headphones"></i>Phụ kiện<i style="margin-left: 4px;" class="fa-solid fa-sort-down"></i></a>
+                    <div class="submenu">
+                        <ul>
+                            <li><a href="./sac.html">Sạc dự phòng, cáp</a></li>
+                            <li><a href="./op.html">Ốp lưng điện thoại, máy tính bảng</a></li>
+                            <li><a href="./gaay.html">Gậy chụp ảnh, Gimbal</a></li>
+                            <li><a href="./pktab.html">Phụ kiện Tablet</a></li>
+                            <li><a href="./chuot.html">Chuột, bàn phím</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="./sw.html">Smartwatch</a></li>
+                <li><a href="./w.html">Đồng hồ</a></li>
+                <li><a href="./old.html">Máy cũ giá rẻ</a></li>
+                <li><a href="">Sim, Thẻ cào</a></li>
+                <li><a href="">Trả góp, điện nước</a></li>
+            </ul>
+        </div>
+    </div>
+</section>
+<!-- Slider -->
+<section class="slider">
+    <div class="container">
+        <div class="slider-content">
+            <div class="slider-content-left">
+                <div class="slider-content-left-top-container">
+                    <div class="slider-content-left-top">
+                        <a href="phone.html" class=""><img src="../assets/img/slider1.png" alt="Slider"></a>
+                        <a href="../index.html" class=""><img src="../assets/img/slider2.png" alt="Slider"></a>
+                        <a href="w.html" class=""><img src="../assets/img/slider3.png" alt="Slider"></a>
+                        <a href="../index.html" class=""><img src="../assets/img/slider4.png" alt="Slider"></a>
+                        <a href="old.html" class=""><img src="../assets/img/slider5.png" alt="Slider"></a>
+                    </div>
+                    <div class="slider-content-left-top-btn">
+                        <i class="fa-solid fa-chevron-left"></i>
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </div>
+                </div>
+                    <div class="slider-content-left-bottom">
+                        <li class="active">iPhone 14 đã có hàng</li>
+                        <li>Tết không đơn độc</li>
+                        <li>Black "Price Day"</li>
+                        <li>Siêu Sale Audio</li>
+                        <li>Cùng Vivo xem WC</li>
+                    </div>
+                </div>
+                <div class="slider-content-right">
+                    <li><a href="sw.html"><img src="../assets/img/right2.png" alt=""></a></li>
+                    <li><a href="../index.html"><img src="../assets/img/right1.png" alt=""></a></li>
+                    <li><a href="../index.html"><img src="../assets/img/right3.png" alt=""></a></li>
+                    <li><a href="tablet.html"><img src="../assets/img/right4.png" alt=""></a></li>
+                </div>
+        </div>
+    </div>
+</section>
+<section class="baner-one">
+    <div class="container">
+        <img src="../assets/img/baner1.png" alt="">
+    </div>
+</section>
+
+<!-- Product -->
+<section class="slider-product-one">
+    <div class="container">
+        <div class="slider-product-one-content slider-product-one-content-background slider-product-one-content-background-b">
+            <div class="slider-product-one-content-title">
+                <h2>Hot Sale 70%</h2>
+            </div>
+            <div class="slider-product-one-content-container">
+                <div class="slider-product-one-content-items-content">
+                    <div class="slider-product-one-content-items">
+                        <div class="slider-product-one-content-item">
+                            <img src="../assets/img/w1.png" alt="">
+                            <div class="slider-product-one-content-item-text">
+                                <li>Q&Q 31mm Nữ</li>
+                                <li><span>447.000</span><sup>đ</sup></li>
+                            </div>
+                            <button class="js-button">Thêm vào giỏ hàng</button>
+                        </div>
+                        <div class="slider-product-one-content-item">
+                            <img src="../assets/img/w2.png" alt="">
+                            <div class="slider-product-one-content-item-text">
+                                <li>Q&Q 37.5mm Trẻ em</li>
+                                <li><span>107.000</span><sup>đ</sup></li>
+                            </div>
+                            <button class="js-button">Thêm vào giỏ hàng</button>
+                        </div>
+                        <div class="slider-product-one-content-item">
+                            <img src="../assets/img/w3.png" alt="">
+                            <div class="slider-product-one-content-item-text">
+                                <li>Q&Q 33mm Unisex </li>
+                                <li><span>107.000</span><sup>đ</sup></li>
+                            </div>
+                            <button class="js-button">Thêm vào giỏ hàng</button>
+                        </div>
+                        <div class="slider-product-one-content-item">
+                            <img src="../assets/img/w4.png" alt="">
+                            <div class="slider-product-one-content-item-text">
+                                <li>MATHEY TISSOT 30mm Nữ</li>
+                                <li><span>1.527.000</span><sup>đ</sup></li>
+                            </div>
+                            <button class="js-button">Thêm vào giỏ hàng</button>
+                        </div>
+                        <div class="slider-product-one-content-item">
+                            <img src="../assets/img/w5.png" alt="">
+                            <div class="slider-product-one-content-item-text">
+                                <li>ELIO 35mm Nữ</li>
+                                <li><span>416.000</span><sup>đ</sup></li>
+                            </div>
+                            <button class="js-button">Thêm vào giỏ hàng</button>
+                        </div>
+                    </div>
+                    <div class="slider-product-one-content-items">
+                        <div class="slider-product-one-content-item">
+                            <img src="../assets/img/w6.png" alt="">
+                            <div class="slider-product-one-content-item-text">
+                                <li>ANNIE KLEIN 30mm Nữ</li>
+                                <li><span>1.160.000</span><sup>đ</sup></li>
+                            </div>
+                            <button class="js-button">Thêm vào giỏ hàng</button>
+                        </div>
+                        <div class="slider-product-one-content-item">
+                            <img src="../assets/img/w7.png" alt="">
+                            <div class="slider-product-one-content-item-text">
+                                <li>CITIZINE 42mm Nam</li>
+                                <li><span>1.725.000</span><sup>đ</sup></li>
+                            </div>
+                            <button class="js-button">Thêm vào giỏ hàng</button>
+                        </div>
+                        <div class="slider-product-one-content-item">
+                            <img src="../assets/img/w8.png" alt="">
+                            <div class="slider-product-one-content-item-text">
+                                <li>COACH 36mm Nữ</li>
+                                <li><span>1.800.000</span><sup>đ</sup></li>
+                            </div>
+                            <button class="js-button">Thêm vào giỏ hàng</button>
+                        </div>
+                        <div class="slider-product-one-content-item">
+                            <img src="../assets/img/w9.png" alt="">
+                            <div class="slider-product-one-content-item-text">
+                                <li>ANNIE KLEIN 30mm Nữ</li>
+                                <li><span>1.520.000</span><sup>đ</sup></li>
+                            </div>
+                            <button class="js-button">Thêm vào giỏ hàng</button>
+                        </div>
+                        <div class="slider-product-one-content-item">
+                            <img src="../assets/img/w10.png" alt="">
+                            <div class="slider-product-one-content-item-text">
+                                <li>CITIZINE 36mm Nữ</li>
+                                <li><span>2.835.000</span><sup>đ</sup></li>
+                            </div>
+                            <button class="js-button">Thêm vào giỏ hàng</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slider-content-left-top-btn2">
+                    <i class="fa-solid fa-chevron-left fa-chevron-left-2"></i>
+                    <i class="fa-solid fa-chevron-right fa-chevron-right-2"></i>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- List Product -->
+<section class="list-product-one">
+    <div class="container">
+        <div class="list-product-one-content">
+            <div class="list-product-one-content-title">
+                <h2>Đồng hồ</h2>
+            </div>
+            <div class="list-product-one-content-product">
+                <div class="list-product-one-content-product-item">
+                    <img src="../assets/img/w11.png" alt="">
+                            <div class="list-product-one-content-product-item-text">
+                                <li>MOVADO
+                                </li>
+                                <li><span>11.590.000</span><sup>đ</sup></li>
+                            </div>
+                            <button class="js-button">Thêm vào giỏ hàng</button>
+                </div>
+                <div class="list-product-one-content-product-item">
+                    <img src="../assets/img/w12.png" alt="">
+                            <div class="list-product-one-content-product-item-text">
+                                <li>ERNEST BOREL
+                                </li>
+                                <li><span>26.809.000</span><sup>đ</sup></li>
+                            </div>
+                            <button class="js-button">Thêm vào giỏ hàng</button>
+                </div>
+                <div class="list-product-one-content-product-item">
+                    <img src="../assets/img/w13.png" alt="">
+                            <div class="list-product-one-content-product-item-text">
+                                <li>TITONI
+                                </li>
+                                <li><span>25.049.000</span><sup>đ</sup></li>
+                            </div>
+                            <button class="js-button">Thêm vào giỏ hàng</button>
+                </div>
+                <div class="list-product-one-content-product-item">
+                    <img src="../assets/img/w14.png" alt="">
+                            <div class="list-product-one-content-product-item-text">
+                                <li>CERTINA
+                                </li>
+                                <li><span>10.157.000</span><sup>đ</sup></li>
+                            </div>
+                            <button class="js-button">Thêm vào giỏ hàng</button>
+                </div>
+                <div class="list-product-one-content-product-item">
+                    <img src="../assets/img/w15.png" alt="">
+                            <div class="list-product-one-content-product-item-text">
+                                <li>FREDERIQUE CONSTANT
+                                </li>
+                                <li><span>40.936.000</span><sup>đ</sup></li>
+                            </div>
+                            <button class="js-button">Thêm vào giỏ hàng</button>
+                </div>
+                <div class="list-product-one-content-product-item">
+                    <img src="../assets/img/w16.png" alt="">
+                            <div class="list-product-one-content-product-item-text">
+                                <li>FREDERIQUE COSC
+                                </li>
+                                <li><span>53.746.000</span><sup>đ</sup></li>
+                            </div>
+                            <button class="js-button">Thêm vào giỏ hàng</button>
+                </div>
+                <div class="list-product-one-content-product-item">
+                    <img src="../assets/img/w17.png" alt="">
+                            <div class="list-product-one-content-product-item-text">
+                                <li>TITONI SY-063
+                                </li>
+                                <li><span>25.296.000</span><sup>đ</sup></li>
+                            </div>
+                            <button class="js-button">Thêm vào giỏ hàng</button>
+                </div>
+                <div class="list-product-one-content-product-item">
+                    <img src="../assets/img/w18.png" alt="">
+                            <div class="list-product-one-content-product-item-text">
+                                <li>TITONI SY-BD
+                                </li>
+                                <li><span>23.401.000</span><sup>đ</sup></li>
+                            </div>
+                            <button class="js-button">Thêm vào giỏ hàng</button>
+                </div>
+                <div class="list-product-one-content-product-item">
+                    <img src="../assets/img/w19.png" alt="">
+                            <div class="list-product-one-content-product-item-text">
+                                <li>CANDINO
+                                </li>
+                                <li><span>23.990.000</span><sup>đ</sup></li>
+                            </div>
+                            <button class="js-button">Thêm vào giỏ hàng</button>
+                </div>
+                <div class="list-product-one-content-product-item">
+                    <img src="../assets/img/w20.png" alt="">
+                            <div class="list-product-one-content-product-item-text">
+                                <li>CERTINA BIG DATE
+                                </li>
+                                <li><span>22.142.000</span><sup>đ</sup></li>
+                            </div>
+                            <button class="js-button">Thêm vào giỏ hàng</button>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+
+
+<!-- Cart -->
+<section class="cart">
+    <i class="fa-solid fa-xmark"></i>
+    <h2>Cart</i></h2>
+    <form action="">
+        <table>
+            <thead>
+                <tr>
+                    <th>Sản phẩm</th>
+                    <th>Giá</th>
+                    <th>SL</th>
+                    <th>Chọn</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- <tr>
+                    <td class="td-cart"><img src="../assets/img/product1.png" alt="" class="img-cart">POCO</td>
+                    <td><p><span>3.990.000</span><sup>đ</sup></p></td>
+                    <td><input class="input-cart" type="number" value="1" min="1"></td>
+                    <td class="delete-cart">Xóa</td>
+                </tr>
+                <tr>
+                    <td class="td-cart"><img src="../assets/img/product2.png" alt="" class="img-cart">POCO</td>
+                    <td><p><span>3.990.000</span><sup>đ</sup></p></td>
+                    <td><input class="input-cart" type="number" value="1" min="1"></td>
+                    <td class="delete-cart">Xóa</td>
+                </tr> -->
+            </tbody>
+        </table>
+        <div class="price-total">
+            <p class="total-cart">Tổng tiền: <span class="price">0</span><sup>đ</sup></p>
+        </div>
+        <div class="class-button">
+            <button>Thanh toán</button>
+        </div>
+    </form>
+</section>
+<footer>
+    <div class="footer__bottom">
+        <div class="grid">
+             <p class="footer__text">© 2022 - Bản quyền thuộc về công ty PN Office</p>
+        </div>
+     </div>
+</footer>
+<script src="../script.js"></script>
+</body>
+</html>
